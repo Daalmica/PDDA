@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-image: linear-gradient (rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(D:\DAALMICA\Documents\unad\Periodo 2024 I PERIODO 16-01 (1701)\Programación\Copia de yo_yoyo [Recuperado].png);
+    background-position:center button
+    background-repeat:no-repeat
+
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+color: #FFFDFC;
+font-size: 25px;
+font-weight: 800;
+
+}
+.menu .navdalmica ul li{
+    position: relative;; 
+    float: left; 
+}
+.menu .navdalmica ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+font-weight: 800;
+}
+ .navdalmica ul li a:hover{
+    color: hsl(184, 100%, 49%);
+}
+#menu{
+    display: none;
+}
+.menuicono{
+    width: 20px;
+    
+}
+.menu label{
+    cursor: 
+    display none;
+}
+.header-content{
+    text-align: center;
+}
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: blueviolet;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.header-content p{
+    font-size: 16px;
+    color: #b1faf6;
+    padding: 0 250 px;
+    margin-bottom: 25px;
+
+}
+.btn-1{
+    display: inline-block;
+    padding: 11px 35 px;
+    background-color: #CE967B;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.titulocaja{
+    font-size: 15px;
+    color:#3b1b43;
+}
+    .CajaComentario{
+        font-size: 15px;
+        box-sizing: border-box;
+        background-position:center botton;
+    background-repeat:no-repeat
+    }
+    
+ .SECTIONCLASE{
+width: 400px;
+background-color: rgba(45, 4, 73, 0.233);
+padding: 30px;
+margin-top: 100px;
+margin: auto;
+color: rgb(7, 1, 22);
+border-radius: 4px;
+font-family: 'calibri';
+
+ }
+.controls{
+    width: 200px;
+    background: #eeddff65;
+    padding:4px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    border:1px solid #1f53c5;
+    font-size: 18px;
+
+}
+.cja{
+   
+    border:1px solid #1f53c5;
+}
+.intro{
+    width: 300px;
+    padding: 4px;
+    color: rgb(7, 1, 22);
+}
+.imag{
+    width: 320px;
+    height: 250px;
+    border:5px solid #380666;
+    margin-bottom: 15px;
+}
+.porta{
+color:#3b1b43;
+margin-bottom: 20px;
+}
+.videos{
+    width: 320px;
+    height: 250px;
+    border:5px solid #380666;
+    margin-bottom: 15px;
+}
+.videos_porta{
+     width: 300px;
+    padding: 4px;
+    color: rgb(7, 1, 22);
+    margin-bottom: 20px;
+}
+.pr{
+    font-size: 15px;
+    color:#3b1b43;
+margin-bottom: 20px;
+}
+/* adaptacion*/
+@media(min-width:480px){
+    .intro{
+        width: 600px;
+        height: 500px;
+        padding-left: 5px;
+    }
+   .imag{
+    width: 600px;
+    height: 400px;
+    border:10px solid #22033f;
+    margin-bottom: 15px;
+   }
+.por_titulo{
+    font-size: 30px;
+}
+.videos{
+    width: 600px;
+    height: 400px;
+    border:10px solid #22033f;
+    margin-bottom: 15px;
+}
+.pr{
+    font-size: 30px;
+}
+.titulocaja{
+    font-size: 25px;
+}
+.navdalmica ul li a {
+    justify-content: space-evelin ;
+}
+@media (min-width: 768px) {
+    .intro{
+        width: 800px;
+        height: 700px;
+        padding-left: 5px;
+    }
+   .imag{
+    width: 800px;
+    height: 550px;
+    border:10px solid #22033f;
+    margin-bottom: 15px;
+   }
+.por_titulo{
+    font-size: 35px;
+}
+.videos{
+    width: 800px;
+    height: 550px;
+    border:10px solid #22033f;
+    margin-bottom: 15px;
+}
+.pr{
+    font-size: 35px;
+}
+.titulocaja{
+    font-size: 30px;
+}
+.navdalmica ul li a {
+    justify-content: space-evelin ;
+}
+}
+@media (min-width: 1024px) {
+    .h1{
+        font-size: 12rem
+    }
+    .intro{
+        width: 1000px;
+        height: 700px;
+        padding-left: 10px;
+    }
+   .imag{
+    width: 1000px;
+    height: 650px;
+    border:10px solid #22033f;
+    margin-bottom: 15px;
+   }
+.por_titulo{
+    font-size: 40px;
+}
+.videos{
+    width: 1000px;
+    height: 650px;
+    border:10px solid #22033f;
+    margin-bottom: 15px;
+}
+.pr{
+    font-size: 40px;
+}
+.titulocaja{
+    font-size: 30px;
+}
+.navdalmica ul li a {
+    justify-content: space-evelin ;
+}
+}
+}
+
+ 
+   
+   
